@@ -28,7 +28,7 @@ def calcular_timestamp():
             return
 
         # 4. Calcular el nuevo timestamp
-        nuevo_timestamp = timestamp_actual + segundos_a_sumar
+        nuevo_timestamp = int(timestamp_actual + segundos_a_sumar)
 
         # 5. Mostrar resultados
         print("\n" + "="*30)
