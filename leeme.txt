@@ -1,1 +1,7 @@
 si el calculo te da un dumero decilmal solo copia hasta el punto, en discord no se reconoce ejemplo 5145575.165655 debes colocar 5145575
+
+
+version 1.8 ya fue coregido el scrip usando la funcion int() para forzar que el numero que me de como resultado del calculo
+sera un numero entero por lo cual ya te da el numero listo para pegar en discord
+
+
