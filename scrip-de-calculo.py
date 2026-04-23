@@ -9,7 +9,8 @@ def calcular_timestamp():
     print("\n¿Qué deseas añadir al timestamp?")
     print("1. Horas")
     print("2. Minutos")
-    opcion = input("Elige una opción (1 o 2): ")
+    print("3. Dias")
+    opcion = input("Elige una opción (1, 2 o 3): ")
 
     # 3. Procesar la entrada y realizar el cálculo
     try:
@@ -19,10 +20,15 @@ def calcular_timestamp():
             # Convertir horas a segundos: horas * 60 min * 60 seg
             segundos_a_sumar = cantidad * 3600
             unidad = "horas"
+
         elif opcion == "2":
             # Convertir minutos a segundos: minutos * 60 seg
             segundos_a_sumar = cantidad * 60
             unidad = "minutos"
+        elif opcion == "3":
+            #convertir a dias:
+            unidad = "días"
+            segundos_a_sumar = cantidad * 86400
         else:
             print("Opción no válida.")
             return
