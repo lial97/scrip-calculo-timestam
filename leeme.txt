@@ -1,0 +1,1 @@
+si el calculo te da un dumero decilmal solo copia hasta el punto, en discord no se reconoce ejemplo 5145575.165655 debes colocar 5145575
